@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", serif; 
+}
+
+body {
+    background: linear-gradient(to bottom right, #f08c61 10%, #fffacd, #9f05ff69 100%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333; 
+    font-family: "Nunito", serif; 
+}
+.container {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    padding-top: 15px;
+    gap: 20px;
+}
+
+header {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .heading{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	color: #FFF;
+	text-shadow: 2px 2px 2px #333;
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+
+h1 {
+	font-family: "Handlee", serif;
+	font-size: 40px;
+    font-weight: 800;
+	margin-bottom: 10px; 
+    letter-spacing: 10px;
+}
+
+.iframe-container {
+    width: 80%; 
+    height: 600px; 
+    border: none; 
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4); 
+    overflow: hidden;
+
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+}
